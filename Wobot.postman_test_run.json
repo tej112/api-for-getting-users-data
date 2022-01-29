@@ -1,0 +1,106 @@
+{
+	"id": "d86926d2-3732-418b-85fd-ae26ae10c182",
+	"name": "Wobot",
+	"timestamp": "2022-01-17T09:46:24.480Z",
+	"collection_id": "18317485-5ccb0b7a-ffa0-41c4-a873-abf2b04d9243",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ad4a3d47-2123-4de4-83d9-1518a2fc2d0c",
+			"name": "get user by ID",
+			"url": "http://127.0.0.1:5000/?id=1",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				102
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b55e746a-d179-4b4f-ba4b-d55c6770f01b",
+			"name": "add new user",
+			"url": "http://127.0.0.1:5000/?city=tpt&name=thejeswar&age=25",
+			"time": 919,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				919
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1c1c9af5-092c-4b20-806a-4143859d9eda",
+			"name": "update details",
+			"url": "http://127.0.0.1:5000/?id=2&city=vijayawada",
+			"time": 637,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				637
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ee05c754-d399-4a13-8f34-a99baddcf014",
+			"name": "delete user",
+			"url": "http://127.0.0.1:5000/?id=3",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				77
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1735,
+	"collection": {
+		"requests": [
+			{
+				"id": "ad4a3d47-2123-4de4-83d9-1518a2fc2d0c",
+				"method": "GET"
+			},
+			{
+				"id": "b55e746a-d179-4b4f-ba4b-d55c6770f01b",
+				"method": "POST"
+			},
+			{
+				"id": "1c1c9af5-092c-4b20-806a-4143859d9eda",
+				"method": "PUT"
+			},
+			{
+				"id": "ee05c754-d399-4a13-8f34-a99baddcf014",
+				"method": "DELETE"
+			}
+		]
+	}
+}
